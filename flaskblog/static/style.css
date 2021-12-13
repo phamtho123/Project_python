@@ -1,0 +1,68 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    /* background-image: url(https://i.pinimg.com/originals/f2/9a/64/f29a64e7cdd5d5a43681dae21a307297.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    position: relative;
+}
+
+.background-image-fix{
+    position: fixed;
+    height: 2000px;
+    width: 2200px;
+}   
+
+.custom-image{
+    height: 40px;
+    width: 40px;
+
+}
+
+.user-name{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.check-icon{
+    color:#1877f2;
+    font-size: 14px;
+}
+
+.date-posted{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: #757581;
+}
+
+.dot-icon{
+    font-size: 2px;
+    margin: 0 8px;    
+}
+
+.icon-globe{
+    font-size: 14px;
+}
+
+.article-metadata{
+    border: 0;
+}
+
+.article-title{
+    font-weight: 700;
+    transition: all 0.5s ease 0s;
+}
+
+.article-content{
+    color: #757581;
+
+}
+.row-custom{
+    display: flex;
+    justify-content: center;
+}
+
+.content-section:hover{
+    background-color:#f3f3f3;
+}
