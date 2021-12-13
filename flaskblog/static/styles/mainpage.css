@@ -114,11 +114,13 @@ body {
     margin: 0;
     padding: 12px;
     font-size: 20px;
+    color: #fff;
 }
 
 .member-introduction .member-address{
     margin: 0;
     padding: 12px;
+    color: #fff;
 }
 
 .our-team:hover .member-introduction{
