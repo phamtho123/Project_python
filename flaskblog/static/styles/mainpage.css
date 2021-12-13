@@ -1,0 +1,127 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 100px;
+    margin-right: 120px;
+
+  }
+.name-team{
+    font-size: 28px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    color:#388a3f;
+    text-align: center;
+    padding: 0 auto;
+    background-color: var(--primary-color);
+}
+
+.title-introduction{
+    width: 100%;
+    margin-bottom: 80px;
+    height: 60px;
+    text-align: center;
+    margin-left: 120px;
+    line-height: 60px;
+    font-size: 60px;
+    color: var(--primary-color);
+    padding-top: 20px;
+}
+
+.container{
+  
+    width: 970px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+}
+
+.our-team{
+    border: 1px solid #b1b1b1;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover{
+    background: #4285F4;
+    color: #fff;
+}
+
+.our-team .pic{
+    position: relative;
+}
+
+.our-team .pic .member-avatar{
+    transition: all 0.3s ease 0s;
+    width: 240px;
+    height: 320px;
+}
+
+.our-team:hover .pic .member-avatar
+{ 
+    transform: translateY(-20px); 
+}
+
+.our-team .social{
+    width: 20%;
+    height: 100%;
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team .social li{
+    padding: 6px 0;
+}
+
+.our-team:hover .social
+{ 
+    left: 0; 
+}
+
+.our-team .social li{
+    display: block;
+}
+
+.our-team .social li a{
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team .social li a i:hover{
+    color: aqua;
+}
+
+.member-introduction{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.member-introduction .member-name{
+    margin: 0;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.member-introduction .member-address{
+    margin: 0;
+    padding: 12px;
+}
+
+.our-team:hover .member-introduction{
+    color: #fff;
+}
+

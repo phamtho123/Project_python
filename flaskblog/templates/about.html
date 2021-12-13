@@ -1,0 +1,56 @@
+{% extends "layout2.html" %}
+{% block content %}
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/mainpage.css') }}">
+</head>
+<body>
+    <div><h2 class="title-introduction">Member introduction</h2></div>
+    <div class="container">
+        <div class="our-team">
+            <div class="pic">
+                <img class="member-avatar" src="{{ url_for('static', filename='profile_pics/AnhDai1.jpg') }}"></img>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/daikhacle" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/anhdai.l801/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="https://github.com/lekhacanhdai" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <a href="" class="member-introduction">
+                <h2 class="member-name">Lê Khắc Anh Đài</h2>
+                <p class="member-address">Quảng Nam</p>
+            </a>
+        </div>
+        <div class="our-team">
+            <div class="pic">
+                <img class="member-avatar" src="{{ url_for('static', filename='profile_pics/VanTho.jpg') }}"></img>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100039509284645" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/thopham1238/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="https://github.com/phamtho123" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <a href="" class="member-introduction">
+                <h2 class="member-name">Phạm Văn Thọ</h2>
+                <p class="member-address">Đà Nẵng</p>
+            </a>
+        </div>
+        <div class="our-team">
+            <div class="pic">
+                <img class="member-avatar" src="{{ url_for('static', filename='profile_pics/NgocDat.png') }}"></img>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/ngocdat1908" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/luong.ngoc.dat/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                    <li><a href="https://github.com/vndat00" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <a href="" class="member-introduction">
+                <h2 class="member-name">Lương Ngọc Đạt</h2>
+                <p class="member-address">Quảng Bình</p>
+            </a>
+        </div>
+    </div>
+</body>
+{% endblock content %}
