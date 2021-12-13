@@ -5,10 +5,17 @@ body{
     background-repeat: no-repeat;
     background-size: contain; */
     position: relative;
+    margin-top: 56px;
+}
+
+.search-form{
+    margin-top: 10px;
 }
 
 .background-image-fix{
+    width: 100%;
     position: fixed;
+    object-fit: contain;
 }   
 
 .custom-image{
