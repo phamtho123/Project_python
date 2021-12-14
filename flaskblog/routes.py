@@ -23,11 +23,13 @@ def home():
 
 @app.route("/about")
 def about():
-
     person_to_show = 'profile_pics'
     profilepic_filename = os.path.join('static', person_to_show, "AnhDai1.jpg")
     return render_template('about.html', title='About',url_anhdai=profilepic_filename)
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 @app.route("/register", methods=['GET', 'POST'])
 def register():
