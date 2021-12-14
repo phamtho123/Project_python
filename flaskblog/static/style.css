@@ -71,3 +71,32 @@ body{
 .content-section:hover{
     background-color:#f3f3f3;
 }
+
+
+
+
+.user-info-posted{
+    display: flex;
+    margin: 20px;
+}
+
+.time-posted{
+    display: flex;
+    color: gray;
+    align-items: center;
+}
+
+.header-post{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.custom-content{
+    padding: 0 24px;
+    text-align: justify;
+}
+
+.action-group{
+    padding-left: 24px;
+}
