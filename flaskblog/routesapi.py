@@ -1,10 +1,3 @@
-"""
-file that implements the web service part of the project.
-for more information about REST methods and their responsibilities,
-visit: https://www.restapitutorial.com/lessons/httpmethods.html
-or https://www.w3schools.in/restful-web-services/rest-methods/
-"""
-
 import sys
 from flask import request, jsonify, abort
 from flaskblog import app, db, bcrypt
